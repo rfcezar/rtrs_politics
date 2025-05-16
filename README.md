@@ -28,15 +28,7 @@ Municipal and state-level political alignment was collected from official 2018 g
 Three distinct measures of certification exposure were created:
 - **RTRS1 (Direct):** Binary indicator = 1 if individual was explicitly named in any RTRS audit report.
 - **RTRS2 (Indirect):** Binary indicator = 1 if individual shared any CNPJ with someone directly certified.
-- **RTRS3 (Proportional):** Continuous measure equal to the share of an individual's owned CNPJs that were certified:
-
-\[
-\text{RTRS3}_i = \frac{\sum_{j=1}^{N_i} \text{certified}_{ij}}{N_i}
-\]
-
-Where:
-- \( N_i \): Total number of CNPJs held by individual \( i \)
-- \( \text{certified}_{ij} \): Indicator equal to 1 if CNPJ \( j \) was certified
+- **RTRS3 (Proportional):** Continuous measure equal to the share of an individual's owned CNPJs that were certified.
 
 ---
 
